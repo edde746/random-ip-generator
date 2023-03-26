@@ -1,0 +1,31 @@
+# .gitignore
+
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+*.log
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Jupyter Notebook
+.ipynb_checkpoints/
