@@ -1,6 +1,6 @@
 # Random IP Generator
 
-Random IP Generator is a Python package that generates a random IP address for a given country code. It uses the IP2LOCATION-LITE-DB1.CSV file as a source for IP ranges per country.
+Random IP Generator is a Python package that generates a random IP address for a given country code. It uses the `IP2LOCATION-LITE-DB1.CSV` file as a source for IP ranges per country.
 
 ## Installation
 You can install the package via pip:
@@ -9,7 +9,7 @@ You can install the package via pip:
 pip install random-ip-generator
 ```
 
-##Usage
+## Usage
 After installing the package, you can use the `random_ip_for_country` function in your Python script to generate a random IP address for a given country.
 
 ```python
