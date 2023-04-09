@@ -1,9 +1,9 @@
-import csv
-import random
-import ipaddress
+import os,csv,random,ipaddress
+
+csv_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'IP2LOCATION-LITE-DB1.CSV')
 
 ip_ranges = []
-reader = csv.reader(open("IP2LOCATION-LITE-DB1.CSV").read().strip().split('\n'))
+reader = csv.reader(open(csv_file_path).read().strip().split('\n'))
 for row in reader:
     ip_ranges.append((int(row[0]), int(row[1]), row[2], row[3]))
 
