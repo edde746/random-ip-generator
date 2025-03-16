@@ -20,6 +20,23 @@ random_ip = random_ip_for_country(country_code)
 print(f"Random IP for {country_code}: {random_ip}")
 ```
 
+`get_country_codes()` will return an alphabetically sorted list of country codes:
+
+```python
+from random_ip_generator import get_country_codes
+
+print(get_country_codes())
+```
+
+`random_ip()` will return a random ip from a random country:
+
+```python
+from random_ip_generator import random_ip
+
+print(random_ip())
+```
+
+
 ## Prerequisites
 This package requires the `ipaddress` package. It will be installed automatically if you install `random-ip-generator` via pip.
 
